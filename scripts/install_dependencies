@@ -1,2 +1,3 @@
 #!/bin/bash
 yes | apt install nodejs
+yes | apt install apache2
