@@ -1,7 +1,5 @@
-
 #!/bin/bash
-
-ExistApp = `pgrep apache2`
+ExistApp=`pgrep apache2`
 if [[ -n  $ExistApp ]]; then
     service apache2 stop        
 fi
