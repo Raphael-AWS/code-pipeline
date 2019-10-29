@@ -1,8 +1,10 @@
 
 #!/bin/bash
-//isExistApp = `pgrep apache`
+
+isExistApp = "pgrep apache2"
 if [[ -n  $isExistApp ]]; then
-    service apache stop        
-fi//
+    service apache2 stop        
+fi
+
 
 
